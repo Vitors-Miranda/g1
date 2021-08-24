@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#superior{
+    background-color: white;
+    height: 45px;
+}
+#superior ul{
+    list-style-type: none; 
+}
+#superior ul a{
+    text-decoration: none; 
+}
+#superior ul li{
+    float: left;
+    padding: 12px 4px 0px 0px;
+    margin: 0px 10px 0px 0px;
+}
+#azul{
+    color: rgb(49, 49, 245);
+}
+#vinho{
+    color: rgb(112, 5, 5);
+}
+#verde{
+    color: rgb(6, 134, 12);
+}
+#azul2{
+    color: rgb(49, 49, 245);
+    border: none;
+    width: 80px;
+    font-size:17px ;
+    margin-top:-60px;
+    padding-top: 8px;
+}
+#azul2:hover{
+    border-top: solid  rgb(49, 49, 245);
+    line-height: 13px;
+}
+#laranja{
+    color: rgb(255, 145, 0);
+}
+#riscovertical{
+    background-color: rgb(197, 197, 197);
+    opacity: 0.5;
+    height:11px;
+    width: 1px;
+    margin: 5px 0px 0px -235px;
+
+}
+#riscovertical1{
+    background-color: rgb(197, 197, 197);
+    opacity: 0.5;
+    height:11px;
+    width: 1px;
+    margin: 5px 0px 0px -215px;
+}
+#riscovertical2{
+    background-color: rgb(197, 197, 197);
+    opacity: 0.5;
+    height:11px;
+    width: 1px;
+    margin: 5px 0px 0px -195px;
+}
+#riscovertical3{
+    background-color: rgb(197, 197, 197);
+    opacity: 0.5;
+    height:11px;
+    width: 1px;
+    margin: 5px 0px 0px -140px;
+}
+#superior li:nth-child(2):hover{
+    border-top: solid  rgb(112, 5, 5);
+    line-height: 13px;
+}
+#superior li:nth-child(3):hover{
+    border-top: solid  rgb(6, 134, 12);
+    line-height: 13px;
+}
+#superior li:nth-child(4):hover{
+    border-top: solid   rgb(255, 145, 0);
+    line-height: 13px;
+}
+#direita li a{
+    padding: 0px 8px 0px 0px;
+    margin: 0px 8px 0px 0px;
+    font-weight: 100;
+    font-size: 12px;
+    color: darkgray;
+}
+#direita :first-child{
+    padding-left: 155px;
+}
+.email{
+    border: none;
+    color: darkgray;
+    width: 60px;
+    font-weight: 100;
+    font-size: 12px;
+}
+.email:hover{
+    color: blue;
+}
+#botão{
+    width: 60px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(97, 96, 96);
+    background-color: white;
+    border-radius: 4px;
+    border: solid 1px rgb(153, 153, 153);
+    border-top: solid 1px rgb(224, 224, 224);
+}
+#botão:hover{
+    color: blue;
+    border-top: solid 1px rgb(224, 224, 224);
+    border-right: solid 1px rgb(153, 153, 153);
+    border-left: solid 1px rgb(153, 153, 153);
+    border-bottom: solid 1px rgb(153, 153, 153);
+}
+#direita a:hover{
+    color: blue;
+}
+#inferior{
+    background-color: rgb(167, 3, 3);
+    color:white;
+    height: 75px;
+    width: 1000px;
+}
+#inferior img{
+    margin: 10px;
+}
+#inferior h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: -30px;
+}
+#lupa{
+    font-size: 20px;
+    text-align: right;
+    line-height: 65px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.barra{
+    border-top: solid rgb(255, 255, 255);
+    margin: 2px 0px 0px 0px;
+    width: 20px;
+    height: 1px;
+}
+#barrinhas{
+    margin-top:-35px;
+    margin-left: 15px;
+    margin-right: 0px;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+#inferior img{
+    margin-left:50px;
+    float:left;
+    margin-top: -38px;
+}

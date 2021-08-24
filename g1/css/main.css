@@ -1,0 +1,241 @@
+#esquerda{
+    border: solid black;
+    border-radius: 5px;
+    width: 440px;
+    height: 440px;
+    margin: 40px 0px 0px 50px;
+    float: left;
+}
+#esquerda:hover{
+    width: 450px;
+    height: 450px;
+    margin: 35px 0px 0px 45px;
+    transition: all 0.5s;
+}
+.titulo{
+    margin:20px;
+}
+.txt{
+    margin: 50% 40px 0px 20px;
+}
+#direita1{
+    border: solid black;
+    width: 440px;
+    height: 212px;
+    border-radius: 5px;
+    float: left;
+    margin: 40px 0px 0px 10px;
+}
+#direita1:hover{
+    width: 450px;
+    height: 222px;
+    margin: 35px 0px 0px 5px;
+    transition: all 0.5s;
+}
+.txt1{
+    margin: 5% 40px 0px 20px;
+}
+#direita2{
+    border: solid black;
+    width: 440px;
+    height: 212px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+#direita2:hover{
+    width: 450px;
+    height: 222px;
+    margin: 5px 0px 0px 5px;
+    transition: all 0.5s;
+}
+#conteudo{
+    margin: 550px 0px 0px 45px;
+    width: 628px;
+    height: auto;
+    border-radius: 5px;
+    color: rgb(37, 37, 37);
+    opacity: 0.9;
+}
+.noticia{
+    padding: 0px;
+    margin: 7px 7px 7px 7px;
+    
+    width: 600px;
+    height: 330px;
+    border-radius: 5px;
+    float:left;
+}
+.imgnotic{
+    margin: 0px 15px 150px 0px;
+    width: 260px;
+    height: 150px;
+    border: solid black;
+    float: left;
+}
+.titgrande{
+    font-weight: 700;
+    margin: 10px 0px 10px 0px;
+    opacity: 1;
+}
+.titgrande a{
+    text-decoration: none;
+    color: rgb(187, 5, 5);
+}
+.titgrande a:hover{
+    color: rgb(133, 5, 5);
+}
+.paragrafo{
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    
+}
+#maislidas{
+    border: solid rgb(180, 180, 180) 1px;
+    margin: -1095px 0px 0px 680px;
+    width: 270px;
+    height: auto;
+    float:left;
+    border-radius: 5px;
+}
+#Maislidastitulo{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: 900;
+    border-bottom: solid rgb(173, 173, 173) 1px;
+}
+#listamasilida{
+    padding: 15px 30px 30px 50px;
+    color: grey;
+    font-size: 20px;
+    line-height: 18px; 
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+.link{
+    color: rgb(187, 5, 5);
+    text-decoration: none;
+    font-size: 17px;
+}
+.link:hover{
+    color: rgb(133, 5, 5);
+}
+.linha{
+    margin:20px 0px 20px 0px;
+}
+#veja{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+    border-top: solid rgb(173, 173, 173) 1px;
+}
+#veja a{
+    text-decoration: none;
+    color: rgb(187, 5, 5);
+}
+#veja a:hover{
+    color: rgb(133, 5, 5);
+}
+#vejamais{
+    float:left;
+    background-color: rgb(187, 5, 5);
+    height:50px;
+    width: 600px;
+    color: white;
+    margin: 7px 7px 7px 7px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 100;
+}
+#vejamais a{
+    text-decoration: none;
+    color: white;
+}
+#rodape{
+    background-color: rgb(167, 3, 3);
+    float: left;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: relative;
+}
+#logorodape{
+    padding: 20px 0px 0px 10px;
+}
+#ultimas{
+    margin-top:-27px ;
+    padding: 0px 0px 0px 70px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+#ultimas a{
+    margin-top:-32px ;
+    padding: 0px 0px 0px 7px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+#Copyright{
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 13px;
+    padding: 30px 0px 0px 10px;
+}
+#rodapelist{
+ float: left;
+ font-size: 12px;
+ margin: -16px 0px 0px 550px;
+}
+#rodapelist a{
+    float: left;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+#tresbarras{
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    background-color: rgb(250, 250, 249);
+    top: 0px;
+    transition: all 0.5s;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
+    visibility: hidden;
+}   
+#tresbarras a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 100;
+    opacity: 0.5;
+}  
+#x{
+    margin: -20px 0px 0px -20px;
+    padding: 0px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    opacity: 0.4;
+    cursor: pointer;
+} 
+#tresbarras hr{
+    opacity: 0.3;
+}
