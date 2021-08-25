@@ -15,3 +15,5 @@ Contains:
 + footer
 
 *It's one of my oldest project, so there are a lotta flaws.
+
+To use just dowload the files and run index.html.
